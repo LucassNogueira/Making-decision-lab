@@ -63,23 +63,23 @@ let evensArr = []
 var score = 84
 // Do not edit the code above.
 
-/*
-  Determine if the letter grade of the given variable 'score'. If the variable is a 90 or above, console log an 'A', between 80 and 89, console log a 'B', between 70 and 79, 'C', between 60 and 69, 'D', and anything below 60 should console log an 'F'.
-*/
+// /*
+//   Determine if the letter grade of the given variable 'score'. If the variable is a 90 or above, console log an 'A', between 80 and 89, console log a 'B', between 70 and 79, 'C', between 60 and 69, 'D', and anything below 60 should console log an 'F'.
+// */
 
-//Code Here
+// //Code Here
 
-if (score >= 90){
-  console.log('A');
-} else if (score >= 80){
-  console.log('B');
-} else if (score >= 70){
-  console.log('C');
-} else if (score >= 60){
-  console.log('D');
-} else{
-  console.log('F');
-}
+// if (score >= 90){
+//   console.log('A');
+// } else if (score >= 80){
+//   console.log('B');
+// } else if (score >= 70){
+//   console.log('C');
+// } else if (score >= 60){
+//   console.log('D');
+// } else{
+//   console.log('F');
+// }
 
 
 ////////// Intermediate Problems //////////
@@ -96,7 +96,8 @@ var myFavoriteNumbers = [4,8,12,16,20,24];
 
 //Code Here
 
-
+let sumNum = myFavoriteNumbers[4]
+console.log(sumNum);
 ////////// PROBLEM 7 //////////
 
 // Subscripting (accessing values using their index) an array can fail. What happens if you subscript to the 7th element, but there are not 7 elements in the array? Let's write some code to check for that. 
