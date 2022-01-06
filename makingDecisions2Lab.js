@@ -87,7 +87,7 @@ var score = 84
 ////////// PROBLEM 6 //////////
 
 // Do not edit the code below.
-var myFavoriteNumbers = [4,8,12,16,20,24];
+var myFavoriteNumbers = [4,8,12,16,20,24,3,15];
 // Do not edit the code above.
 
 /*
@@ -96,8 +96,8 @@ var myFavoriteNumbers = [4,8,12,16,20,24];
 
 //Code Here
 
-let sumNum = myFavoriteNumbers[4]
-console.log(sumNum);
+// let someNum = myFavoriteNumbers[4]
+// console.log(someNum);
 
 ////////// PROBLEM 7 //////////
 
@@ -106,6 +106,12 @@ console.log(sumNum);
 
 //Code Here
 
+if (myFavoriteNumbers.length < 7){
+  console.log('There are not enough elemnts in this array.');
+} else if (myFavoriteNumbers.length >= 7){
+  someNum =(myFavoriteNumbers[7]);
+  console.log(someNum);
+}
 
 ////////// PROBLEM 8 //////////
 
