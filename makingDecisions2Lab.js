@@ -43,24 +43,24 @@ var nums = [1,2,3,6,22,98,45,23,22,12];
 let evensArr = []
 // Do not edit the code above.
 
-/*
-  Use a for-loop to iterate through each number in the 'nums' array, if the number is even, append it to the 'evensArr'.
-*/
+// /*
+//   Use a for-loop to iterate through each number in the 'nums' array, if the number is even, append it to the 'evensArr'.
+// */
 
-//Code Here
+// //Code Here
 
-for (let i = 0; i < nums.length; i++){
-  if (nums[i] % 2 === 0){
-    evensArr.push(nums[i]);
-  }
-}
-console.log('nums:',nums);
-console.log('even array:', evensArr);
+// for (let i = 0; i < nums.length; i++){
+//   if (nums[i] % 2 === 0){
+//     evensArr.push(nums[i]);
+//   }
+// }
+// console.log('nums:',nums);
+// console.log('even array:', evensArr);
 
 ////////// PROBLEM 5 //////////
 
 // Do not edit the code below.
-var score = 74
+var score = 84
 // Do not edit the code above.
 
 /*
@@ -68,6 +68,18 @@ var score = 74
 */
 
 //Code Here
+
+if (score >= 90){
+  console.log('A');
+} else if (score >= 80){
+  console.log('B');
+} else if (score >= 70){
+  console.log('C');
+} else if (score >= 60){
+  console.log('D');
+} else{
+  console.log('F');
+}
 
 
 ////////// Intermediate Problems //////////
