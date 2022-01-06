@@ -1,40 +1,40 @@
-// For problems 1-2 use the following lines of code:
-var arr = [10,20,30,40,50,60]
+// // For problems 1-2 use the following lines of code:
+// var arr = [10,20,30,40,50,60]
 
-////////// PROBLEM 1 //////////
-/*
-  Create a variable named 'firstItem' and set it equal to the first value of the 'arr' array.
-*/
+// ////////// PROBLEM 1 //////////
+// /*
+//   Create a variable named 'firstItem' and set it equal to the first value of the 'arr' array.
+// */
 
-//Code Here
+// //Code Here
 
-let firstItem =(arr[0]);
-console.log(firstItem);
+// let firstItem =(arr[0]);
+// console.log(firstItem);
 
-////////// PROBLEM 2 //////////
-/*
-  Remove the last item from the 'arr' array and store it in a variable named 'lastItemRemoved'. Console.log the array to verify you no longer have the last item.
-*/
+// ////////// PROBLEM 2 //////////
+// /*
+//   Remove the last item from the 'arr' array and store it in a variable named 'lastItemRemoved'. Console.log the array to verify you no longer have the last item.
+// */
 
-//Code Here
+// //Code Here
 
-let lastItemRemoved =arr.pop();
-console.log(arr);
-////////// PROBLEM 3 //////////
+// let lastItemRemoved =arr.pop();
+// console.log(arr);
+// ////////// PROBLEM 3 //////////
 
-// Do not edit the code below.
-var family = ['Tyler', 'Jordan', 'Ryan', 'Alice', 'Ireland'];
-// Do not edit the code above.
+// // Do not edit the code below.
+// var family = ['Tyler', 'Jordan', 'Ryan', 'Alice', 'Ireland'];
+// // Do not edit the code above.
 
-/*
-  Loop through the 'family' array and console.log every item.
-*/
+// /*
+//   Loop through the 'family' array and console.log every item.
+// */
 
-//Code Here
+// //Code Here
 
-for (i=0; i< family.length; i++){
-  console.log(family[i]);
-}
+// for (let i=0; i< family.length; i++){
+//   console.log(family[i]);
+// }
 
 ////////// PROBLEM 4 //////////
 
@@ -49,7 +49,13 @@ let evensArr = []
 
 //Code Here
 
-
+for (let i = 0; i < nums.length; i++){
+  if (nums[i] % 2 === 0){
+    evensArr.push(nums[i]);
+  }
+}
+console.log('nums:',nums);
+console.log('even array:', evensArr);
 
 ////////// PROBLEM 5 //////////
 
